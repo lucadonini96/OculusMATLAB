@@ -178,6 +178,7 @@ html_static_path = ['nstatic']
 # Custom sidebar templates, maps document names to template names.
 #
 # html_sidebars = {}
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'], }
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -425,4 +426,4 @@ epub_exclude_files = ['search.html']
 #
 # epub_use_index = True
 
-highlight_language = 'c#'
+highlight_language = 'C#'

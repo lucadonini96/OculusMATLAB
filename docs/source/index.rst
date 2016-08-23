@@ -6,7 +6,7 @@ Another Simple Header
 
 Here is some text.::
 
-    #using UnityEngine
+    using UnityEngine
 
 
 Guide:
@@ -18,6 +18,9 @@ Guide:
    
    installation
    help
+   getting_started
+   
+   downloads
 
 
 Indices and tables
