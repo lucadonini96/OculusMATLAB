@@ -122,7 +122,10 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-html_theme = 'default'
+#html_theme = 'default'
+#html_theme = 'sphinx_rtd_theme'
+#html_theme = 'classic'
+html_theme = 'sphinx_rtd_theme_edited'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -132,6 +135,7 @@ html_theme = 'default'
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
+html_theme_path = ["../_themes", ]
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
@@ -188,10 +192,12 @@ html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 
 # If false, no module index is generated.
 #
 # html_domain_indices = True
+html_domain_indices = False
 
 # If false, no index is generated.
 #
 # html_use_index = True
+html_use_index = False
 
 # If true, the index is split into individual pages for each letter.
 #

@@ -1,0 +1,271 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Importing the required packages &mdash; OculusUnityMatlab 0.0.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="OculusUnityMatlab 0.0.1 documentation" href="../../index.html"/>
+        <link rel="up" title="Getting Started: Unity" href="getting_started_unity.html"/>
+        <link rel="next" title="Sample scene" href="sample_scene.html"/>
+        <link rel="prev" title="Getting Started: Unity" href="getting_started_unity.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> OculusUnityMatlab
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../getting_started.html">Getting Started</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="getting_started_unity.html">Getting Started: Unity</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Importing the required packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sample_scene.html">Sample scene</a></li>
+<li class="toctree-l3"><a class="reference internal" href="custom_scene.html">Adding data collection to your own scene</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../matlab/getting_started/getting_started_matlab.html">Getting Started: MATLAB</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../downloads.html">Downloads</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference/unity_reference.html">Unity Reference</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../help.html">Help</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">OculusUnityMatlab</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../../getting_started.html">Getting Started</a> &raquo;</li>
+      
+          <li><a href="getting_started_unity.html">Getting Started: Unity</a> &raquo;</li>
+      
+    <li>Importing the required packages</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/unity/getting_started/import_packages.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="importing-the-required-packages">
+<h1>Importing the required packages<a class="headerlink" href="#importing-the-required-packages" title="Permalink to this headline">¶</a></h1>
+<p>To enable data collection in Unity, you will need to import the following packages.</p>
+<p>If you already have the OculusUtilities for Unity installed (these include <code class="docutils literal"><span class="pre">OVRPlayerController</span></code>, for instance):</p>
+<blockquote>
+<div><ul class="simple">
+<li>Download the <code class="docutils literal"><span class="pre">DATA</span> <span class="pre">COLLECTION</span> <span class="pre">PACKAGE</span></code> from <code class="docutils literal"><span class="pre">HERE</span></code> and <a class="reference external" href="https://docs.unity3d.com/Manual/AssetPackages.html">import</a> it into Unity</li>
+</ul>
+</div></blockquote>
+<p>If you haven&#8217;t installed the OculusUtilities for Unity, you have two options:</p>
+<p>If you intend to use the latest version of the OculusUtilities for Unity</p>
+<blockquote>
+<div><ul class="simple">
+<li>Download and extract  <a class="reference external" href="https://developer3.oculus.com/downloads/"><em>Oculus Utilities for Unity 5</em></a> (this is in the Engine Integration section of the linked webpage) and then <a class="reference external" href="https://docs.unity3d.com/Manual/AssetPackages.html">import</a> <code class="docutils literal"><span class="pre">OculusUtilities.unitypackage</span></code> into Unity.</li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><ul class="simple">
+<li>Download the <code class="docutils literal"><span class="pre">DATA</span> <span class="pre">COLLECTION</span> <span class="pre">PACKAGE</span></code> from <code class="docutils literal"><span class="pre">HERE</span></code> and <a class="reference external" href="https://docs.unity3d.com/Manual/AssetPackages.html">import</a> it into Unity</li>
+</ul>
+</div></blockquote>
+<p>OR, if you intend to use the version of the OculusUtilities that was originally used when implementing the platform (for example if the above doesn&#8217;t work)</p>
+<blockquote>
+<div><ul class="simple">
+<li>Download the <code class="docutils literal"><span class="pre">DATA</span> <span class="pre">COLLECTION</span> <span class="pre">PACKAGE</span> <span class="pre">WITH</span> <span class="pre">OCULUSUTILITIES</span> <span class="pre">(SHOULD</span> <span class="pre">BE</span> <span class="pre">1.3.2)</span></code> from <cite>HERE</cite> and <a class="reference external" href="https://docs.unity3d.com/Manual/AssetPackages.html">import</a> it into Unity.</li>
+</ul>
+</div></blockquote>
+<p>After having imported either data collection package, you will find several new folders in your Project Explorer, including:</p>
+<blockquote>
+<div><ul class="simple">
+<li>CommunicationWIF</li>
+<li>OVR</li>
+<li>Plugins</li>
+<li>Recorder</li>
+<li>Sample Scene</li>
+<li>Time</li>
+</ul>
+</div></blockquote>
+</div>
+
+
+           </div>
+          </div>
+          <style>
+.wrapper {
+    text-align: center;
+}
+</style>
+
+<footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="sample_scene.html" class="btn btn-neutral float-right" title="Sample scene" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="getting_started_unity.html" class="btn btn-neutral float-left" title="Getting Started: Unity" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+      <div class="wrapper">
+			
+				<a href="getting_started_unity.html" class="btn btn-neutral" title="" accesskey="p"><span class="fa fa-arrow-circle-up"></span> Parent</a>
+			
+	   </div>
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Luca Donini.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'0.0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
