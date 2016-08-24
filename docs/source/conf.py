@@ -131,11 +131,10 @@ todo_include_todos = False
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-	html_theme = 'custom_rtd'
-	html_theme_path = ["../_themes", ]
-else:
-	html_theme_path = ["../_themes", ]
+html_theme = 'custom_rtd'
+html_theme_path = ["../_themes", ]
+
+if on_rtd:
 	html_context = { 
 	    'css_files': [
 	        os.path.join(os.path.join(html_theme_path[0],html_theme),'static\\css\\badge_only.css'),
