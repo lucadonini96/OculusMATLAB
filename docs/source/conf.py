@@ -123,9 +123,20 @@ todo_include_todos = False
 #
 #html_theme = 'alabaster'
 #html_theme = 'default'
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
 #html_theme = 'classic'
 #html_theme = 'custom_rtd'
+
+
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if we're building docs locally
+	html_theme = 'custom_rtd'
+	html_theme_path = ["../_themes", ]
+	
+# otherwise, readthedocs.org uses their theme by default, so no need to specify it
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -135,7 +146,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
-html_theme_path = ["../_themes", ]
+# html_theme_path = ["../_themes", ]
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
