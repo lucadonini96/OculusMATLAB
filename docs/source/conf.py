@@ -137,8 +137,8 @@ html_theme_path = ["../_themes", ]
 if on_rtd:
 	html_context = { 
 	    'css_files': [
-	        'static/css/badge_only.css',
-	        'static/css/theme.css',
+	        '_static/css/badge_only.css',
+	        '_static/css/theme.css',
 	    ],  
 	  }
 	
