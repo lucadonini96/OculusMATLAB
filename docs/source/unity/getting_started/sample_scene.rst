@@ -15,6 +15,7 @@ The Hierarchy view contains several game objects.
 * The ``MainRecorder`` GameObject manages the data output to file. The scripts attached to it save general game properties to file (i.e. properties that are not dependent on a single GameObject), such as audio sources, controller input, game information, etc.
 * The ``VIESYS`` GameObject manages the communication with MATLAB.
 * The ``OVRPlayerController > OVRCameraRig > TrackingSpace > CenterEyeAnchor`` GameObject has a ``RecordPositionAttach`` script attached to itself, which saves position and rotation data for this GameObject to file.
+* The ``OVRPlayerController > OVRCameraRig > TrackingSpace > CenterEyeAnchor`` GameObject also has a ``WorldObject`` script attached to itself, which allows communication with MATLAB.
 * The ``Sample Audio Source`` GameObject contains an Audio Source which will generate a sound as the game is started.
 * The ``Timer`` GameObject contains a countdown timer.
 

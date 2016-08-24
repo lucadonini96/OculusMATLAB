@@ -126,7 +126,7 @@ todo_include_todos = False
 #html_theme = 'sphinx_rtd_theme'
 #html_theme = 'classic'
 #html_theme = 'custom_rtd'
-
+#html_theme = 'classic'
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
