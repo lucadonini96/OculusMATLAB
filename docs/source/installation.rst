@@ -13,7 +13,7 @@ Required Packages
 The following packages are required:
 
    * Oculus Utilities for Unity 5: Download from `here <https://developer3.oculus.com/downloads/game-engines/1.7.0/Oculus_Utilities_for_Unity_5/>`_.
-   * !!!!!!!!! Our own data collection package
+   * Our own data collection package: Refer to the :ref:`"Getting Started" <importing-packages>` section to decide which flavour you need.
 
 Installing MATLAB
 ^^^^^^^^^^^^^^^^^

@@ -39,7 +39,7 @@ The ``RecordAudioSources`` script creates two separate files:
 - one file saving every time an audio clip starts playing, and
 - one file saving every time the volume of an audio clip perceived by the player changes (for example if the distance between the player and the source changes).
 
-The variable ``LogNumberPlaying``, if set to true (checked), will write to console the number of audio sources playing every frame. This should only be used for debugging purposes, as it might slow down the simulation.
+The variable ``LogNumberPlaying``, if set to true (checked), will write to console the number of audio sources playing every frame. **This should only be used for debugging purposes, as it might slow down the simulation.**
 
 RecordInputJoystick
 +++++++++++++++++++

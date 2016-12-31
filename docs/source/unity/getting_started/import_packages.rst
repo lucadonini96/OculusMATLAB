@@ -1,3 +1,5 @@
+.. _importing-packages:
+
 Importing the required packages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To enable data collection in Unity, you will need to import the following packages.
@@ -18,7 +20,7 @@ __ https://developer3.oculus.com/downloads/
 	
 OR, if you intend to use the version of the OculusUtilities that was originally used when implementing the platform (for example if the above doesn't work)
 
-	* Download the ``DATA COLLECTION PACKAGE WITH OCULUSUTILITIES (SHOULD BE 1.3.2)`` from `HERE` and import_ it into Unity.
+	* Download the ``DATA COLLECTION PACKAGE WITH OCULUSUTILITIES (SHOULD BE 1.3.2)`` from ``HERE`` and import_ it into Unity.
 
 After having imported either data collection package, you will find several new folders in your Project Explorer, including:
 
